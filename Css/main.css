@@ -1,0 +1,34 @@
+/******************************************
+Base Css
+******************************************/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto 0;
+    /*display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;*/
+    border: 10px red solid;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+ 
+    
+}
+
+.main-header{
+    display: flex;
+    flex-flow: column;
+    border: 10px yellow solid;
+    margin: auto;
+    font-family: "Lato" , sans-serif;
+    background: linear-gradient(#91E5D3,#BBDB9B)
+}
+
+/******************************************
+Media Query
+******************************************/
